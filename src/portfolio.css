@@ -1,0 +1,63 @@
+:root {
+  --main-background-color: #202020;
+}
+
+.hero {
+  color: white;
+  text-transform: uppercase;
+  background-color: var(--main-background-color);
+  text-align: center;
+  padding: 270px 20px 300px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+  margin: 25px 0;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .hero {
+    padding: 150px 20px 200px;
+  }
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  line-height: 28px;
+}
+
+.hero p {
+  font-family: "Roboto", sans-serif;
+  text-transform: none;
+  max-width: 460px;
+  margin: 25px auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.btn-brand {
+  padding: 18px 30px;
+  background: #ffffff;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #272142;
+  margin-top: 50px;
+}
