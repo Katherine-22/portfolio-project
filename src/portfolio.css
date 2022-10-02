@@ -6,6 +6,9 @@
   color: white;
   text-transform: uppercase;
   background-color: var(--main-background-color);
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  background-position: 50% 0;
   text-align: center;
   padding: 270px 20px 300px;
 }
