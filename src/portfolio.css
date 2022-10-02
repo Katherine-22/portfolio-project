@@ -19,17 +19,6 @@ h1 {
   margin: 25px 0;
   overflow-wrap: anywhere;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  .hero {
-    padding: 150px 20px 200px;
-  }
-}
 
 h2 {
   font-family: "Roboto", sans-serif;
@@ -60,4 +49,21 @@ h2 {
   letter-spacing: 0.1em;
   color: #272142;
   margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 9vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  .hero {
+    padding: 130px 20px 100px;
+  }
+
+  .hero p {
+    font-size: 3vw;
+    max-width: 80%;
+  }
 }
