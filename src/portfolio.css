@@ -1,11 +1,13 @@
 :root {
   --main-background-color: #202020;
 }
-
+body {
+  background-color: var(--main-background-color);
+}
 .hero {
   color: white;
   text-transform: uppercase;
-  background-color: var(--main-background-color);
+
   background-image: url("../images/main.jpg");
   background-size: cover;
   background-position: 50% 0;
@@ -17,7 +19,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 72px;
-  line-height: 84px;
+  line-height: 2;
   letter-spacing: 0.1em;
   margin: 25px 0;
   overflow-wrap: anywhere;
@@ -28,7 +30,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 0.1em;
-  line-height: 28px;
+  line-height: 1.2;
 }
 
 .hero p {
@@ -38,7 +40,7 @@ h2 {
   margin: 25px auto;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.5;
 }
 
 .btn-brand {
