@@ -28,7 +28,7 @@ h1 {
 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: 0.1em;
   line-height: 1.2;
 }
@@ -36,10 +36,10 @@ h2 {
 .hero p {
   font-family: "Roboto", sans-serif;
   text-transform: none;
-  max-width: 460px;
+  max-width: 600px;
   margin: 25px auto;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
