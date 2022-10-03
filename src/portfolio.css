@@ -56,6 +56,11 @@ h2 {
   margin-top: 40px;
 }
 
+.gallery h2 {
+  text-align: center;
+  color: white;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 9vw;
