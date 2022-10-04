@@ -1,13 +1,25 @@
 :root {
   --main-background-color: #202020;
+  --secondary-background-color: #282323;
+  --main-font-family: "Roboto", sans-serif;
+  --button-font-family: "Montserrat", sans-serif;
+  --secondary-color: #f65282;
 }
 body {
   background-color: var(--main-background-color);
 }
-.hero {
-  color: white;
-  text-transform: uppercase;
 
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: var(--main-font-family);
+  color: #fff;
+}
+
+.hero {
+  text-transform: uppercase;
   background-image: url("../images/main.jpg");
   background-size: cover;
   background-position: 50% 0;
@@ -16,7 +28,6 @@ body {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 72px;
   line-height: 2;
@@ -26,7 +37,6 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 0.1em;
@@ -34,7 +44,6 @@ h2 {
 }
 
 .hero p {
-  font-family: "Roboto", sans-serif;
   text-transform: none;
   max-width: 600px;
   margin: 25px auto;
@@ -47,23 +56,28 @@ h2 {
   padding: 18px 30px;
   background: #ffffff;
   border-radius: 50px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--button-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.1em;
   color: #272142;
   margin-top: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn-brand:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
 }
 
 .gallery h2 {
   text-align: center;
-  color: white;
 }
 
 footer {
-  background-color: #282323;
-  color: white;
+  background-color: var(--secondary-background-color);
 }
 footer p {
   padding: 25px 0;
@@ -110,7 +124,7 @@ footer p {
   margin: 30px 0 65px;
   max-width: 450px;
   border-radius: 4px;
-  background-color: var(--secondary-background-photo);
+  background-color: var(--secondary-background-color);
 }
 .about-camera img {
   margin-right: 30px;
@@ -135,5 +149,17 @@ footer p {
   .hero p {
     font-size: 5vw;
     max-width: 80%;
+  }
+
+  .about-section {
+    padding: 50px 20px;
+  }
+  .about-section-content {
+    padding: 0;
+    margin: 20px 0 0;
+    text-align: center;
+  }
+  .about-section-content h1 {
+    font-size: 10vw;
   }
 }
