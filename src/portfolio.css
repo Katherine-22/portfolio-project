@@ -72,10 +72,6 @@ h2 {
   color: #fff;
 }
 
-.gallery h2 {
-  text-align: center;
-}
-
 footer {
   background-color: var(--secondary-background-color);
 }
@@ -133,6 +129,10 @@ footer p {
 .about-camera span {
   font-size: 18px;
   font-weight: 700;
+}
+
+.gallery {
+  margin: 30px 0 100px;
 }
 
 @media (max-width: 768px) {
