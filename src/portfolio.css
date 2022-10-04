@@ -18,6 +18,11 @@ span {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .hero {
   text-transform: uppercase;
   background-image: url("../images/main.jpg");
@@ -64,7 +69,6 @@ h2 {
   color: #272142;
   margin-top: 40px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .btn-brand:hover {
@@ -83,7 +87,6 @@ footer p {
 
 .icons .fa-brands {
   margin: 0 20px;
-  color: white;
   font-size: 18px;
 }
 
@@ -102,7 +105,8 @@ footer p {
   margin: 30px 0;
 }
 
-.about-section-content h3 {
+.about-section-content h3,
+.contact-content h3 {
   color: var(--secondary-color);
   text-transform: uppercase;
   font-size: 18px;
@@ -131,8 +135,17 @@ footer p {
   font-weight: 700;
 }
 
-.gallery {
+.gallery,
+.contact-content {
   margin: 30px 0 100px;
+}
+
+.contact-content {
+  text-align: center;
+}
+
+.contact-content h1 {
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
