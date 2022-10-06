@@ -140,6 +140,10 @@ footer p {
   font-size: 18px;
 }
 
+.contact-icons {
+  margin-right: 5px;
+}
+
 .about-section {
   padding: 160px 20px;
 }
