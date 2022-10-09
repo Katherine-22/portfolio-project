@@ -71,12 +71,6 @@ p.logo a {
   min-width: 180px;
 }
 
-.hero {
-  text-transform: uppercase;
-  text-align: center;
-  padding: 150px 20px 200px;
-}
-
 h1 {
   font-weight: 700;
   font-size: 72px;
@@ -91,6 +85,12 @@ h2 {
   font-size: 30px;
   letter-spacing: 0.1em;
   line-height: 1.2;
+}
+
+.hero {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 20px 100px;
 }
 
 .hero p {
@@ -223,9 +223,6 @@ footer p {
   }
   h2 {
     font-size: 5vw;
-  }
-  .hero {
-    padding: 50px 20px 100px;
   }
 
   ul {
