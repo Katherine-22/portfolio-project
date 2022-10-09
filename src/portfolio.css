@@ -217,6 +217,10 @@ footer p {
   font-size: 36px;
 }
 
+.open-source-link {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 9vw;
