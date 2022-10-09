@@ -202,10 +202,11 @@ footer p {
 
 .gallery h1 {
   font-size: 36px;
+  margin-top: 0;
 }
 .gallery,
 .contact-content {
-  margin: 40px 0 100px;
+  margin: 20px 10px 60px;
 }
 
 .contact-content {
@@ -242,7 +243,7 @@ footer p {
     display: block;
   }
   .about-section {
-    padding: 50px 20px 100px;
+    padding: 20px;
   }
 
   .about-section h1 {
@@ -253,6 +254,7 @@ footer p {
     margin: 20px 0 0;
     text-align: center;
   }
+
   .gallery h1,
   .contact-content h1 {
     font-size: 8vw;
@@ -266,7 +268,7 @@ footer p {
   }
 
   nav li {
-    margin-left: 5px;
+    margin-left: 2vw;
     font-size: 18px;
   }
 }
